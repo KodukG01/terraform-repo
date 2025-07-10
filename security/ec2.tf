@@ -27,7 +27,7 @@ resource "aws_security_group" "allow_all" {
         from_port   = 0
         to_port     = 0
         protocol    = "-1" # -1 means all protocols
-        cidr_blocks = ["0.0.0./0"] # Allow all IPs
+        cidr_blocks = ["0.0.0.0/0"] # Allow all IPs
         ipv6_cidr_blocks = ["::/0"] # Allow all IPv6 addresses
 }
 
