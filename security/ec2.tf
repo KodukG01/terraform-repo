@@ -5,7 +5,7 @@ resource "aws_instance" "linux" {
     subnet_id = "subnet-081664e4edc3280ae"
 
     tags = {
-        Name = "LinuxInstance"
+        Name = "LinuxInstance-all"
     }
   
 }
